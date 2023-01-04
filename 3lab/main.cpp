@@ -140,7 +140,6 @@ void updatePerspective() {
 void
 drawWireframePlane(Axis axis, float constant_axis_value, float start_vertex_x, float start_vertex_z, float end_vertex_x,
                    float end_vertex_z) {
-    // TODO: refactor
     glBegin(GL_LINE_LOOP);
     glColor3ub(54, 54, 54);
     switch (axis) {

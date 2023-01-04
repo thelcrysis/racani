@@ -137,7 +137,6 @@ void TwoDimGeneticAlg::mutateIndividual(float probability, individual *indi) {
         }
     }
     indi->eval = TwoDimGeneticAlg::evaluateIndividual(*indi);
-    std::cout << "same indi after: " << indi->values.x << " & " << indi->values.y << std::endl;
 
 }
 

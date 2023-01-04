@@ -12,7 +12,6 @@ void GeneticAlgIterator::step() {
         this->geneticAlg->crossoverEntirePopulation();
 //        if (this->currentIteration < 1 / 3 * this->totalIterations)
 //            geneticAlg->mutateEntirePopulation(1 - ((float) this->currentIteration / 1000.f));
-        // && this->currentIteration % 100 == 0
         if (verbose ) {
             std::cout << "Iteration:" << this->currentIteration << std::endl;
             this->geneticAlg->printPopulation();
