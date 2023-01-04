@@ -7,3 +7,4 @@ cmake .
 cmake --build .
 ./3lab
 ```
+![Screenshot](rastrigin.png "ScreenshotB")
