@@ -1,5 +1,5 @@
 # racani
-Course work as a part of Computer Animation course
+Course work as a part of Computer Animation course; including Visualization of genetic algorithm global optimization of functions of two variables implemented in C++ with OpenGL (fixed function pipeline).
 
 ```
 cd 3lab
